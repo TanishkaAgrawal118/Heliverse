@@ -9,4 +9,4 @@ const dietSchema = new mongoose.Schema({
 })
 
 
-export const dietModel = new mongoose.Model("diet", dietSchema);
+export const dietModel = new mongoose.model("diet", dietSchema);
